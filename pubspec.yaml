@@ -1,9 +1,7 @@
 name: spear_menu
 description: A Flutter spear dropdown menu plugin. supported both iOS and Android.
-version: 0.0.1
-author:
-  Mohanraj <mohanraj153@gmail.com>
-  Ralph Noel Bruno <brunoralphjr@gmail.com>
+version: 0.0.2
+author: Mohanraj <mohanraj153@gmail.com>
 homepage: https://github.com/Mohanraj153/flutter_spear_menu
 
 environment:

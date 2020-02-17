@@ -8,7 +8,7 @@ it's possible to set anywhere in scaffold.
 ![alt text](https://github.com/Mohanraj153/flutter_spear_menu/blob/master/screenshot/SpearMenuDemo.gif)
 
 
-**Example Usage ( complete with all params ):**
+**Example Usage (complete with all params):**
 
 You can find the demo at the 'example' folder.
 

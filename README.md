@@ -20,7 +20,7 @@ PopupMenu.context = context;
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:popup_menu/popup_menu.dart';
+import 'package:spear_menu/spear_menu.dart';
 import 'CustomData.dart';
 
 void main() => runApp(MyApp());
@@ -46,13 +46,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  PopupMenu menu;
+  SpearMenu menu;
   GlobalKey btnKey = GlobalKey();
   List<CustomData> menuList = new List<CustomData>();
 
   @override
   Widget build(BuildContext context) {
-    PopupMenu.context = context;
+    SpearMenu.context = context;
 
     return Scaffold(
       appBar: AppBar(
@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
       setData.add(MenuItem(title: io.name, isActive: io.isShow));
     }
 
-    PopupMenu menu = PopupMenu(
+    SpearMenu menu = SpearMenu(
         //backgroundColor: Colors.teal,
         // lineColor: Colors.tealAccent,
         items: setData,

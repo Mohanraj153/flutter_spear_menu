@@ -15,7 +15,7 @@ You can find the demo at the 'example' folder.
 First, you should set the context at somewhere in you code. Like below:
 
 ```dart
-PopupMenu.context = context;
+SpearMenu.context = context;
 ```
 
 ```dart
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
       menuList.add(CustomData('Copy', false));
       menuList.add(CustomData('Power', false));
       menuList.add(CustomData('Setting', true));
-      menuList.add(CustomData('PopupMenu', false));
+      menuList.add(CustomData('SpearMenu', false));
     }
 
     List<MenuItemProvider> setData = new List<MenuItemProvider>();

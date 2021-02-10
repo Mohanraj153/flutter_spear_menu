@@ -106,7 +106,19 @@ class _MyHomePageState extends State<MyHomePage> {
       menuList.add(CustomData('Copy', false));
       menuList.add(CustomData('Power', false));
       menuList.add(CustomData('Setting', true));
-      menuList.add(CustomData('SpearMenu', false));
+      menuList.add(CustomData('test_4', false));
+      menuList.add(CustomData('test_5', false));
+      menuList.add(CustomData('test_6', false));
+      menuList.add(CustomData('test_7', false));
+      menuList.add(CustomData('test_8', false));
+      menuList.add(CustomData('test_9', false));
+      menuList.add(CustomData('test_10', false));
+      menuList.add(CustomData('test_11', false));
+      menuList.add(CustomData('test_12', false));
+      menuList.add(CustomData('test_13', false));
+      menuList.add(CustomData('test_14', false));
+      menuList.add(CustomData('test_15', false));
+      menuList.add(CustomData('test_16', false));
     }
 
     List<MenuItemProvider> setData = new List<MenuItemProvider>();
